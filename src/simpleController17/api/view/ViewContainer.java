@@ -21,7 +21,7 @@ public interface ViewContainer  extends  RootPaneContainer,ApplicationAware
 	
 	
 	
-	public Image getIconImage();
+	//public Image getIconImage();
 	
 	/**
 	 * Returns the id of the view
@@ -49,7 +49,7 @@ public interface ViewContainer  extends  RootPaneContainer,ApplicationAware
 	 * 
 	 * @param image
 	 */
-	public void setIconImage(Image image);
+	//public void setIconImage(Image image);
 	
 	/**
 	 * Sets the name view.

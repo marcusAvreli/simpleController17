@@ -77,15 +77,20 @@ public class DefaultPerspective implements Perspective {
 	/* (non-Javadoc)
 	 * @see org.viewaframework.view.ViewAware#addView(org.viewaframework.view.ViewContainer, org.viewaframework.view.perspective.PerspectiveConstraint)
 	 */
+	private void debugJustInCase(String message) {
+		logger.info(message);
+		
+		}
 	public void addView(ViewContainer view, PerspectiveConstraint constraint) {
+		debugJustInCase("add_view_started");
 		this.getViews().put(view.getId(),view);
 		JTabbedPane panel = constraint!= null && constraint.equals(PerspectiveConstraint.RIGHT) ? editionPanel : 
 							constraint!= null && constraint.equals(PerspectiveConstraint.BOTTOM) ? auxiliaryPanel : 
 							constraint!= null && constraint.equals(PerspectiveConstraint.LEFT) ? navigationPanel : editionPanel;
 		
 		Component 	component 		= view.getRootPane();		
-		Image 		viewIconImage 	= view.getIconImage();
-		ImageIcon 	viewIcon 		= viewIconImage != null ? new ImageIcon(viewIconImage) : null;		
+	//	Image 		viewIconImage 	= view.getIconImage();
+	//	ImageIcon 	viewIcon 		= viewIconImage != null ? new ImageIcon(viewIconImage) : null;		
 		
 		
 		
@@ -106,6 +111,7 @@ public class DefaultPerspective implements Perspective {
 		}
 		panel.validate();
 		panel.repaint();
+		debugJustInCase("add_view_finished");
 	}
 
 	/* (non-Javadoc)

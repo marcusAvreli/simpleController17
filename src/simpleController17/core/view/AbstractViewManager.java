@@ -10,7 +10,9 @@ import org.slf4j.LoggerFactory;
 
 import simpleController17.api.core.Application;
 import simpleController17.api.view.ViewContainer;
+import simpleController17.api.view.ViewException;
 import simpleController17.api.view.ViewManager;
+import simpleController17.api.view.perspective.PerspectiveConstraint;
 
 
 
@@ -44,8 +46,8 @@ public abstract class AbstractViewManager implements ViewManager
 	/* (non-Javadoc)
 	 * @see org.viewaframework.view.ViewManager#addView(org.viewaframework.view.ViewContainer, org.viewaframework.view.perspective.PerspectiveConstraint)
 	 */
-	public void addView(ViewContainer view){	 
-		
+	public void addView(ViewContainer view,PerspectiveConstraint constraint){	 
+		debugJustInCase("add_view_started");
 		Map<Object,ViewContainer> 				viewContainerCollection = this.getViews();
 		ViewContainer 							viewContainer 			= viewContainerCollection.get(view.getId());		
 		Application								app						= this.getApplication();
@@ -53,11 +55,21 @@ public abstract class AbstractViewManager implements ViewManager
 	
 	 /* Then application instance is injected in the view */
 		view.setApplication(app);
+		debugJustInCase("add_view:"+view.getId());
 		
+		if (!view.getId().equals(ViewManager.ROOT_VIEW_ID)){
+			this.getPerspective().addView(view,constraint);
+		}
+		else {
+			//this.getPerspective().addView(view,constraint);
+		}
+		debugJustInCase("add_view_finished");
 		
 	}
 	
-	
+	public void addView(ViewContainer view) throws ViewException {
+		this.addView(view,null);
+	}
 	
 	
 	
@@ -84,17 +96,32 @@ public abstract class AbstractViewManager implements ViewManager
 	/* (non-Javadoc)
 	 * @see org.viewa.view.ViewManager#arrangeView()
 	 */
+	private void debugJustInCase(String message) {
+		logger.info(message);
+		//if (logger.isDebugEnabled()) {
+//			logger.debug(message);
+		//}
+		}
 	public Container arrangeViews()
 	{
+		debugJustInCase("arrange_views_started");
 		Map<Object,ViewContainer> cviews 					= new HashMap<Object, ViewContainer>();
 		Collection<ViewContainer> viewContainerCollection 	= this.getViews().values();
 	 /* ViewManager and Perspectives can make different decisions about its views so
 	  * it is mandatory to create different view collections. */
+		if(null != viewContainerCollection && !viewContainerCollection.isEmpty()) {
+			debugJustInCase("size:"+viewContainerCollection.size());
+		}else {
+			if(null != viewContainerCollection) {
+				debugJustInCase("is_not_null_but_is_empty");
+			}
+		}
 		for (ViewContainer view : viewContainerCollection){
 			cviews.put(view.getId(), view);
 		}
 		
 		this.getPerspective().setViews(cviews);
+		debugJustInCase("arrange_views_finished");
 		return this.getPerspective().arrange();
 	}
 	/* (non-Javadoc)

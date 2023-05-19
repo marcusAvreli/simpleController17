@@ -5,6 +5,7 @@ import java.util.Map;
 
 import simpleController17.api.core.ApplicationAware;
 import simpleController17.api.view.perspective.Perspective;
+import simpleController17.api.view.perspective.PerspectiveConstraint;
 
 
 //https://github.com/mariogarcia/viewa/blob/c39f7f46dc39908bd23cd4ded0b60c5f555617b8/api/src/main/java/org/viewaframework/view/ViewManager.java
@@ -28,7 +29,8 @@ public interface ViewManager extends ApplicationAware
 	 * @param view
 	 * @throws
 	 */
-	public void addView(ViewContainer view) ;
+	public void addView(ViewContainer view) throws ViewException;
+	public void addView(ViewContainer view,PerspectiveConstraint constraint) throws ViewException;
 	public void setPerspective(Perspective perspective);
 	public Perspective getPerspective();
 	public Container arrangeViews();

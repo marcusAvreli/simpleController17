@@ -64,7 +64,7 @@ try {
 * @param message
 */
 private void debugJustInCase(String message) {
-logger.info(message);
+logger.debug(message);
 //if (logger.isDebugEnabled()) {
 //	logger.debug(message);
 //}

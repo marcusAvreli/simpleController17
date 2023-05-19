@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 
 import simpleController17.api.core.Application;
 import simpleController17.api.view.ViewContainerFrame;
+import simpleController17.api.view.ViewException;
 import simpleController17.api.view.perspective.Perspective;
 
 
@@ -22,6 +23,8 @@ import simpleController17.api.view.perspective.Perspective;
  * @since 1.0
  *
  */
+
+//https://github.com/mariogarcia/viewa/blob/c39f7f46dc39908bd23cd4ded0b60c5f555617b8/core/src/main/java/org/viewaframework/view/DefaultViewManager.java#L20
 public class DefaultViewManager extends AbstractViewManager
 {
 	private static final Logger logger = LoggerFactory.getLogger(DefaultViewManager.class);
@@ -79,7 +82,12 @@ public class DefaultViewManager extends AbstractViewManager
 			container 		= super.arrangeViews();
 			rootContainer.setContentPane(rootView.getRootPane());
 			((JRootPane)rootContainer.getContentPane()).getContentPane().add(container);			
-			this.addView(rootView);			
+			try {
+				this.addView(rootView);
+			} catch (ViewException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}			
 		
 			
 		return rootContainer;

@@ -1,6 +1,8 @@
 package simpleController17.core.core;
 
 import java.awt.Component;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 
 import javax.swing.JFrame;
@@ -9,11 +11,16 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import simpleController17.api.core.Application;
+import simpleController17.api.view.ViewContainer;
 import simpleController17.api.view.ViewContainerFrame;
+import simpleController17.api.view.ViewException;
 import simpleController17.api.view.ViewManager;
+import simpleController17.api.view.perspective.PerspectiveConstraint;
+import simpleController17.core.annotation.processor.ViewsProcessorWrapper;
 import simpleController17.core.view.DefaultViewContainerFrame;
 import simpleController17.core.view.DefaultViewManager;
 import simpleController17.core.view.perspective.DefaultPerspective;
+import simpleController17.widget.swing.builder.util.SwingBuilderView;
 
 
 /**
@@ -47,10 +54,15 @@ public abstract class AbstractApplication implements Application
 	private String 						name;
 	private ViewContainerFrame			rootView;
 	private ViewManager 				viewManager;
+	private List<ViewsProcessorWrapper> initViews;
 	public AbstractApplication(){
 		logger.info("constructor_0");
 		this.viewManager 			= new DefaultViewManager(this,new DefaultPerspective());
-		
+		ViewContainer vc = new SwingBuilderView(); 
+		//public ViewsProcessorWrapper(ViewContainer view,PerspectiveConstraint constraint,boolean rootView,boolean trayView){
+		ViewsProcessorWrapper wrapper = new ViewsProcessorWrapper(vc, PerspectiveConstraint.RIGHT_BOTTOM, false, false);
+		initViews = new ArrayList<ViewsProcessorWrapper>();
+		initViews.add(wrapper);
 	}
 	
 	/**
@@ -113,9 +125,20 @@ public abstract class AbstractApplication implements Application
 	public void prepareUI(DefaultViewContainerFrame f) {
 		logger.info("Application preparing UI!");
 		
-	
-		//this.setRootView();
-	//	this.setRootView(ViewContainerFrame.class.cast(w.getView()));			
+		for (ViewsProcessorWrapper w : initViews){
+			try {
+				
+				if (w.isRootView()){
+					this.setRootView(ViewContainerFrame.class.cast(w.getView()));
+				} else {
+					logger.info("=========================");
+					this.getViewManager().addView(w.getView(),w.getConstraint());
+				}
+			} catch (ViewException e) {
+				logger.error("ssss=============");
+			}
+		}
+		
 	}
 
 

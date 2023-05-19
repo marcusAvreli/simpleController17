@@ -59,7 +59,7 @@ public boolean isVisible();
  */
 public abstract void setRootView(ViewContainerFrame rootView);
 public void prepare() ;
-public void prepareUI(DefaultViewContainerFrame f) ;
+public void prepareUI() ;
 public void initUI();
 
 /**

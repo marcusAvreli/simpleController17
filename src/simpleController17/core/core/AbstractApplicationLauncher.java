@@ -149,7 +149,7 @@ protected void done() {
 try {
 	Application application = get();
 	updateSplashForPrepareUI();
-	application.prepareUI(f);
+	application.prepareUI();
 	application.initUI();
 	//application.initUI();
 	

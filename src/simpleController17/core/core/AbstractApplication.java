@@ -122,7 +122,7 @@ public abstract class AbstractApplication implements Application
 	/* (non-Javadoc)
 	 * @see org.viewaframework.core.Application#prepareUI()
 	 */
-	public void prepareUI(DefaultViewContainerFrame f) {
+	public void prepareUI() {
 		logger.info("Application preparing UI!");
 		
 		for (ViewsProcessorWrapper w : initViews){

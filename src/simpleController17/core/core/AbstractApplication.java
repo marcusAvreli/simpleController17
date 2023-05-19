@@ -21,6 +21,7 @@ import simpleController17.core.view.DefaultViewContainerFrame;
 import simpleController17.core.view.DefaultViewManager;
 import simpleController17.core.view.perspective.DefaultPerspective;
 import simpleController17.widget.swing.builder.util.SwingBuilderView;
+import simpleController17.widget.swing.builder.util.TableView;
 
 
 /**
@@ -59,9 +60,12 @@ public abstract class AbstractApplication implements Application
 		logger.info("constructor_0");
 		this.viewManager 			= new DefaultViewManager(this,new DefaultPerspective());
 		ViewContainer vc = new SwingBuilderView(); 
+		ViewContainer tableContainer = new TableView();
 		//public ViewsProcessorWrapper(ViewContainer view,PerspectiveConstraint constraint,boolean rootView,boolean trayView){
-		ViewsProcessorWrapper wrapper = new ViewsProcessorWrapper(vc, PerspectiveConstraint.RIGHT_BOTTOM, false, false);
+		ViewsProcessorWrapper wrapper = new ViewsProcessorWrapper(vc, PerspectiveConstraint.LEFT, false, false);
 		initViews = new ArrayList<ViewsProcessorWrapper>();
+		initViews.add(wrapper);
+		wrapper = new ViewsProcessorWrapper(tableContainer, PerspectiveConstraint.RIGHT, false, false);
 		initViews.add(wrapper);
 	}
 	

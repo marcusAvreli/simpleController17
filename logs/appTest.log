@@ -271,3 +271,122 @@
 2023-05-19 11:28:38.068 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:rootViewId
 2023-05-19 11:28:38.068 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
 2023-05-19 11:28:40.938 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.close(AbstractApplication.java:94)] - Application_closing!
+2023-05-19 11:32:05.582 INFO [main] [simpleController17.App.main(App.java:26)] - start
+2023-05-19 11:32:05.635 ERROR [main] [simpleController17.core.core.AbstractApplicationLauncher.<init>(AbstractApplicationLauncher.java:59)] - Application init failed: null
+2023-05-19 11:32:05.636 INFO [SwingWorker-pool-2-thread-1] [simpleController17.core.core.AbstractApplication.<init>(AbstractApplication.java:59)] - constructor_0
+2023-05-19 11:32:05.654 INFO [SwingWorker-pool-2-thread-1] [simpleController17.core.core.AbstractApplication.prepare(AbstractApplication.java:109)] - Application preparing!
+2023-05-19 11:32:05.676 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:126)] - Application preparing UI!
+2023-05-19 11:32:05.677 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:134)] - =========================
+2023-05-19 11:32:05.677 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 11:32:05.677 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:SwingBuilderViewId
+2023-05-19 11:32:05.677 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_started
+2023-05-19 11:32:05.696 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_finished
+2023-05-19 11:32:05.696 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 11:32:05.696 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.initUI(AbstractApplication.java:147)] - Application UI initializing!
+2023-05-19 11:32:05.698 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - arrange_views_started
+2023-05-19 11:32:05.699 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - is_not_null_but_is_empty
+2023-05-19 11:32:05.699 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - arrange_views_finished
+2023-05-19 11:32:05.699 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 11:32:05.699 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:rootViewId
+2023-05-19 11:32:05.699 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 11:32:14.962 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.close(AbstractApplication.java:94)] - Application_closing!
+2023-05-19 11:57:34.807 INFO [main] [simpleController17.App.main(App.java:26)] - start
+2023-05-19 11:57:34.857 ERROR [main] [simpleController17.core.core.AbstractApplicationLauncher.<init>(AbstractApplicationLauncher.java:59)] - Application init failed: null
+2023-05-19 11:57:34.859 INFO [SwingWorker-pool-2-thread-1] [simpleController17.core.core.AbstractApplication.<init>(AbstractApplication.java:60)] - constructor_0
+2023-05-19 11:57:34.878 INFO [SwingWorker-pool-2-thread-1] [simpleController17.core.core.AbstractApplication.prepare(AbstractApplication.java:113)] - Application preparing!
+2023-05-19 11:57:34.899 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:130)] - Application preparing UI!
+2023-05-19 11:57:34.900 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:138)] - =========================
+2023-05-19 11:57:34.900 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 11:57:34.900 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:SwingBuilderViewId
+2023-05-19 11:57:34.900 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_started
+2023-05-19 11:57:34.919 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_finished
+2023-05-19 11:57:34.919 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 11:57:34.919 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:138)] - =========================
+2023-05-19 11:57:34.919 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 11:57:34.919 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:TableViewId
+2023-05-19 11:57:34.920 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_started
+2023-05-19 11:57:34.920 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_finished
+2023-05-19 11:57:34.921 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 11:57:34.921 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.initUI(AbstractApplication.java:151)] - Application UI initializing!
+2023-05-19 11:57:34.923 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - arrange_views_started
+2023-05-19 11:57:34.923 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - is_not_null_but_is_empty
+2023-05-19 11:57:34.923 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - arrange_views_finished
+2023-05-19 11:57:34.924 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 11:57:34.924 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:rootViewId
+2023-05-19 11:57:34.924 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 11:57:41.094 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.close(AbstractApplication.java:98)] - Application_closing!
+2023-05-19 11:57:56.544 INFO [main] [simpleController17.App.main(App.java:26)] - start
+2023-05-19 11:57:56.595 ERROR [main] [simpleController17.core.core.AbstractApplicationLauncher.<init>(AbstractApplicationLauncher.java:59)] - Application init failed: null
+2023-05-19 11:57:56.598 INFO [SwingWorker-pool-2-thread-1] [simpleController17.core.core.AbstractApplication.<init>(AbstractApplication.java:60)] - constructor_0
+2023-05-19 11:57:56.617 INFO [SwingWorker-pool-2-thread-1] [simpleController17.core.core.AbstractApplication.prepare(AbstractApplication.java:113)] - Application preparing!
+2023-05-19 11:57:56.642 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:130)] - Application preparing UI!
+2023-05-19 11:57:56.643 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:138)] - =========================
+2023-05-19 11:57:56.643 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 11:57:56.643 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:SwingBuilderViewId
+2023-05-19 11:57:56.643 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_started
+2023-05-19 11:57:56.663 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_finished
+2023-05-19 11:57:56.663 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 11:57:56.663 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:138)] - =========================
+2023-05-19 11:57:56.663 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 11:57:56.664 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:TableViewId
+2023-05-19 11:57:56.664 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_started
+2023-05-19 11:57:56.664 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_finished
+2023-05-19 11:57:56.664 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 11:57:56.664 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.initUI(AbstractApplication.java:151)] - Application UI initializing!
+2023-05-19 11:57:56.666 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - arrange_views_started
+2023-05-19 11:57:56.666 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - is_not_null_but_is_empty
+2023-05-19 11:57:56.667 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - arrange_views_finished
+2023-05-19 11:57:56.667 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 11:57:56.667 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:rootViewId
+2023-05-19 11:57:56.667 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 11:57:59.696 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.close(AbstractApplication.java:98)] - Application_closing!
+2023-05-19 11:58:47.790 INFO [main] [simpleController17.App.main(App.java:26)] - start
+2023-05-19 11:58:47.839 ERROR [main] [simpleController17.core.core.AbstractApplicationLauncher.<init>(AbstractApplicationLauncher.java:59)] - Application init failed: null
+2023-05-19 11:58:47.841 INFO [SwingWorker-pool-2-thread-1] [simpleController17.core.core.AbstractApplication.<init>(AbstractApplication.java:60)] - constructor_0
+2023-05-19 11:58:47.860 INFO [SwingWorker-pool-2-thread-1] [simpleController17.core.core.AbstractApplication.prepare(AbstractApplication.java:113)] - Application preparing!
+2023-05-19 11:58:47.890 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:130)] - Application preparing UI!
+2023-05-19 11:58:47.891 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:138)] - =========================
+2023-05-19 11:58:47.891 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 11:58:47.891 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:SwingBuilderViewId
+2023-05-19 11:58:47.891 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_started
+2023-05-19 11:58:47.911 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_finished
+2023-05-19 11:58:47.911 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 11:58:47.911 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:138)] - =========================
+2023-05-19 11:58:47.911 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 11:58:47.911 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:TableViewId
+2023-05-19 11:58:47.911 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_started
+2023-05-19 11:58:47.912 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_finished
+2023-05-19 11:58:47.912 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 11:58:47.912 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.initUI(AbstractApplication.java:151)] - Application UI initializing!
+2023-05-19 11:58:47.914 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - arrange_views_started
+2023-05-19 11:58:47.914 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - is_not_null_but_is_empty
+2023-05-19 11:58:47.915 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - arrange_views_finished
+2023-05-19 11:58:47.915 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 11:58:47.915 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:rootViewId
+2023-05-19 11:58:47.915 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 11:58:51.840 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.close(AbstractApplication.java:98)] - Application_closing!
+2023-05-19 12:00:42.997 INFO [main] [simpleController17.App.main(App.java:26)] - start
+2023-05-19 12:00:43.048 ERROR [main] [simpleController17.core.core.AbstractApplicationLauncher.<init>(AbstractApplicationLauncher.java:59)] - Application init failed: null
+2023-05-19 12:00:43.050 INFO [SwingWorker-pool-2-thread-1] [simpleController17.core.core.AbstractApplication.<init>(AbstractApplication.java:60)] - constructor_0
+2023-05-19 12:00:43.069 INFO [SwingWorker-pool-2-thread-1] [simpleController17.core.core.AbstractApplication.prepare(AbstractApplication.java:113)] - Application preparing!
+2023-05-19 12:00:43.097 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:130)] - Application preparing UI!
+2023-05-19 12:00:43.098 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:138)] - =========================
+2023-05-19 12:00:43.098 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 12:00:43.098 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:SwingBuilderViewId
+2023-05-19 12:00:43.098 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_started
+2023-05-19 12:00:43.119 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_finished
+2023-05-19 12:00:43.119 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 12:00:43.120 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.prepareUI(AbstractApplication.java:138)] - =========================
+2023-05-19 12:00:43.120 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 12:00:43.120 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:TableViewId
+2023-05-19 12:00:43.120 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_started
+2023-05-19 12:00:43.120 INFO [AWT-EventQueue-0] [simpleController17.core.view.perspective.DefaultPerspective.debugJustInCase(DefaultPerspective.java:81)] - add_view_finished
+2023-05-19 12:00:43.121 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 12:00:43.121 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.initUI(AbstractApplication.java:151)] - Application UI initializing!
+2023-05-19 12:00:43.123 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - arrange_views_started
+2023-05-19 12:00:43.123 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - is_not_null_but_is_empty
+2023-05-19 12:00:43.123 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - arrange_views_finished
+2023-05-19 12:00:43.123 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_started
+2023-05-19 12:00:43.123 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view:rootViewId
+2023-05-19 12:00:43.124 INFO [AWT-EventQueue-0] [simpleController17.core.view.AbstractViewManager.debugJustInCase(AbstractViewManager.java:100)] - add_view_finished
+2023-05-19 12:00:49.983 INFO [AWT-EventQueue-0] [simpleController17.core.core.AbstractApplication.close(AbstractApplication.java:98)] - Application_closing!

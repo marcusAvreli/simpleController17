@@ -10,6 +10,7 @@ import javax.swing.JComponent;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
+import simpleController17.swing.swing.builder.component.ButtonBuilder;
 import simpleController17.swing.swing.builder.component.ComponentBuilderAware;
 import simpleController17.swing.swing.builder.component.JComponentBuilder;
 import simpleController17.swing.swing.builder.component.LabelBuilder;
@@ -33,23 +34,23 @@ public class SwingBuilder implements ContainerBuilder<JPanel>,ComponentBuilderAw
 	/* (non-Javadoc)
 	 * @see org.examples.viewaframework.swing.component.ComponentBuilderAware#button()
 	 */
-	/*
+	
 	public ButtonBuilder button() {
 		ButtonBuilder builder = new ButtonBuilder(this);
 		this.mainPanel.add(builder.getTarget());
 		return builder;
 	}
-*/
+
 	/* (non-Javadoc)
 	 * @see org.examples.viewaframework.swing.component.ComponentBuilderAware#button(java.lang.Object)
 	 */
-	/*
+	
 	public ButtonBuilder button(Object constraints) {
 		ButtonBuilder builder = new ButtonBuilder(this);
 		this.mainPanel.add(builder.getTarget(),constraints);
 		return builder;
 	}
-*/
+
 	/*
 	public <T extends JComponent> JComponentBuilder<T> component(T component,Class<T> clazz,Object constraints) {
 		JComponentBuilder<T> builder = 
